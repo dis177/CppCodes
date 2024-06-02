@@ -91,7 +91,6 @@ namespace Var {
   }
 
   // Abstract base class of var_value
-  // var_value �ĳ������
   struct var_base {
     virtual std::ostream& __out__(std::ostream& o) const = 0;
     VAR_NODISCARD virtual VAR_INLINE constexpr size_t       __typesize__() const noexcept = 0;
